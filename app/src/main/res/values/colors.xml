@@ -1,0 +1,58 @@
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_header_title">#363636</color>
+    <color name="color_header">#F7F7F7</color>
+    <!-->统一主背景颜色dgf1f8f6  zzgf3fbfb<-->
+    <color name="color_main_background">#EEEEEE</color>
+    <color name="dg_back_color">#F1F8F6</color>
+    <color name="zzg_back_color">#F3FBFB</color>
+    <!-->统一分割线<-->
+    <color name="color_main_divider">#F0F0F0</color>
+    <!-->会员中心<-->
+    <color name="color_balance_text">#909090</color>
+    <color name="color_member_grid_text">#565656</color>
+    <color name="color_notifi_tip">#fff6ef</color>
+    <color name="color_time_count">#dbdbdb</color>
+    <!-->登录界面颜色<-->
+    <color name="color_login_div">#FFFFFF</color>
+    <color name="color_login_btn">#F47A20</color>
+    <color name="color_login_tv_pressed">#949494</color>
+    <!-->自助购颜色<-->
+    <color name="color_ship_for_me_entrance">#2ecba4</color>
+    <color name="color_submit_order_tab_baseline">#2ecaa4</color>
+    <color name="color_submit_oder_tab_text">#565656</color>
+    <color name="color_submit_taobao_text_hint">#d5d5d5</color>
+    <color name="color_sfm_order_list_mid_color">#f3fdfb</color>
+    <color name="color_sfm_order_list_track_no">#909090</color>
+    <color name="color_sfm_order_list_btn1">#dbdbdb</color>
+    <color name="color_bfm_refunded_delete">#EDEDEE</color>
+    <color name="color_sfm_order_list_vas_unselect">#f4f4f4</color>
+    <color name="color_sfm_btn_pressed">#1e6d5a</color>
+    <color name="color_sfm_sub_unselect">#f9f9f9</color>
+    <color name="color_member_item_pressed_color">#F4F4F4</color>
+    <color name="color_bfm_refunded_deleteall">#D81E1F</color>
+
+    <color name="color_bfm_tips">#FBBCBD</color>
+    <!-->咨询<-->
+    <color name="color_ticket_item_content">#cccccc</color>
+    <color name="color_card_choose_back">#fef8f3</color>
+    <color name="bfbfbf_color">#bfbfbf</color>
+    <color name="bbbbbb_color">#bbbbbb</color>
+
+    <!-->半透明的颜色<-->
+    <color name="search_catalogue_layout">#77000000</color>
+    <color name="page_main">#99000000</color>
+    <color name="popuwindow">#00000000</color>
+    <color name="fef7f2_color">#fef7f2</color>
+    <color name="color_bfm_refunded_item">#fdf7f5</color>
+    <color name="bfm">#3b3c3d</color>
+    <color name="edit_bg_price">#F2F2F2</color>
+    <!-->消息<-->
+    <color name="message_text">#838383</color>
+    <color name="message_lv_bg">#F7F7F7</color>
+    <color name="message_text2">#151516</color>
+    <color name="color_00b7ff">#00b7ff</color>
+</resources>

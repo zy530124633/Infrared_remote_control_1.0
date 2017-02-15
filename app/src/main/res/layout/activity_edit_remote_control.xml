@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_remote_control"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.infrared_remote_control.EditRemoteControlActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/header_fanhui_pic"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_toRightOf="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="编辑遥控器"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:text="保存"
+            android:textColor="@android:color/white"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="14dp"
+            android:textColor="@android:color/darker_gray"
+            android:text="遥控器名称"/>
+
+        <EditText
+            android:id="@+id/et_TV_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/background_dark"
+            android:text="电视品牌"
+            android:background="@drawable/btn_bg_bfm_price"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="14dp"
+            android:textColor="@android:color/darker_gray"
+            android:text="快速命名"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:background="@drawable/btn_bg_bfm_price"
+           android:layout_marginRight="20dp"
+           android:orientation="vertical">
+           
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="40dp">
+
+
+
+
+           </LinearLayout>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/bfbfbf_color"></View>
+
+
+
+
+       </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
